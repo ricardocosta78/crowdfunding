@@ -29,10 +29,10 @@ button.addEventListener('mouseout',function(){
 });
 buttonModal.forEach(element => {
   element.addEventListener('click', function(){
-    modal.classList.add('show');
+    modalMain.classList.add('show');
     });
   });
 close.addEventListener('click', function(){
-    modal.classList.remove('show');
+    modalMain.classList.remove('show');
 
   });

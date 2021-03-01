@@ -258,9 +258,7 @@ header {
   position: absolute;
   top: 0;
   left:0;
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(3px);
-  z-index: 5;
+  display: none;
 }
 
 .main-project-modal {
@@ -273,11 +271,13 @@ header {
   padding: 2rem;
   position: absolute;
   top:10%;
-  display: none;
   z-index:6;
 }
 .show {
   display: flex;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
 }
 .bottom-modal {
   display: flex;
